@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Nanum+Myeongjo&display=swap')
+;
+* {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing:border-box
+}
+h1 {
+  color : #0A897F;
+}
+h3 {
+  color : #0A897F;
+}
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    background-color: #3A435A;
+    position: fixed;
+    top: 0px;
+}
+.intro {
+    background-color: 1E223B;
+}
+.profile{
+}
+.skills{
+}
+.project{
+}
+.contact{
+    background-color: 1E223B;
+    margin-bottom: 50px;
+}
+body {
+    background-color: #1E223B;
+}
+/* @media (max-width: 1000px) {
+    .article {
+        display: flex;
+    }
+} */
+.profile-photo {
+    border-radius: 50%;
+}
+p {
+    color: white;
+}
+/* Make sure that padding behaves as expected */
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  padding-left: 0px;
+  margin-bottom: 25px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  
+}
+hr {
+    color: white;
+}
+
+.html {width: 90%; background-color: #0A897F;} /* Green */
+.css {width: 80%; background-color: #0A897F;} /* Blue */
+.js {width: 65%; background-color: #0A897F;} /* Red */
+.bootstrap {width: 60%; background-color: #0A897F;} /* Dark Grey */
+.carousel-inner {
+    height: 600px;
+}
